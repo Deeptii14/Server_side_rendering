@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          .detail {
+               display: flex;
+
+               flex-direction: column;
+               align-items: center;
+               margin-top: 58px;
+               gap: 10px;
+               border: 2px solid whitesmoke;
+               padding: 8px;
+               height: 100vh;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="detail">
+          <h1>Details of User Logged In</h1>
+          <h2>First Name : <%= user.firstname %>
+          </h2>
+          <h2>Last Name : <%= user.lastname %>
+          </h2>
+          <h2>Email : <%= user.email %>
+          </h2>
+
+     </div>
+</body>
+
+</html>
